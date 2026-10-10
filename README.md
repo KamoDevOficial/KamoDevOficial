@@ -1,16 +1,42 @@
-## Hi there 👋
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F89820,100:5382A1&height=180&section=header&text=Pedro%20Kamoda&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+<img src="https://readme-typing-svg.demolab.com/?lines=Java+Developer;Always+Learning;Python+%7C+C%23+%7C+JavaScript&font=Fira%20Code&center=true&width=500&height=45&color=F89820&vCenter=true"/>
+</div>
 
-<!--
-**KamoDevOficial/KamoDevOficial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About me
 
-Here are some ideas to get you started:
+Backend **Java** Developer with experience in **Spring** (Boot/Framework), **Docker**, and both **SQL** and **NoSQL** databases.
+Currently studying **Computer Engineering**, applying my studies to building **REST API** projects that combine theory with real-world development practice.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![LinkedIn](https://img.shields.io/badge/-PedroKamoda-blue?style=flat-square&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/opedrokamoda/)
+[![GitHub followers](https://img.shields.io/github/followers/pedrokamodaoficial?label=follow&style=social)](https://github.com/KamoDevOficial)
+
+```java
+public class Developer {
+
+    private String name = "Pedro Kamoda";
+    private String role = "Backend Java Developer";
+    private String degree = "Computer Engineering & Journalism";
+    private String email = "pedrokamoda@gmail.com"
+
+    private String[] skills = {
+        "Java", "Spring Boot", "Spring MVC", "Spring Data",
+        "Docker", "PostgreSQL", "MySQL",
+    };
+
+    private String currentFocus = "Building REST APIs";
+
+    public String[] someProjects() {
+        return new String[] {
+            "Hexagonal CRUD in Java",
+            "E-Players technic graduation project"
+            "IMC calculator with JavaFX"
+        };
+    }
+
+    public static void main(String[] args) {
+        Developer me = new Developer();
+        System.out.println(me.name + " is coding...");
+    }
+}
+```
